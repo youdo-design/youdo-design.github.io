@@ -45,7 +45,7 @@ const ThemeConfigEn ={
 export default defineConfig({ 
   vite:{ 
     plugins:[ 
-      RemoteAssets({ assetsDir:".themekit/dist/assets" })
+       RemoteAssets({ assetsDir:".themekit/dist/assets" })
     ]
   }, 
   title: "有度设计",  
