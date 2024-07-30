@@ -14,14 +14,7 @@
   [为承载记忆的老城的河道注入新的灵魂![](/Resources/icon/arrow-right-fff.svg)](简体中文/景观设计/故河新脉/README.md?class=btn%20brand)   
 
 <!--Hero #--> 
- 
- 
-<!--#Doc--> 
-# test123
-![](https://seedunk.com/media/ydd-xiangshan/4-03.rw-560.cy-100.cw-500.ch-280.jpg) 
-<!--Doc#-->
-
- 
+  
 <!--#Features-->
 <!--$class:mt--> 
   ## 项目概览
