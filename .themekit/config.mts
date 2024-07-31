@@ -56,14 +56,14 @@ export default defineConfig({
   lang:"root",
   locales: {  
     "English": {
-      title:'YOUDU DESIGN',
+      title:'YOUDO DESIGN',
       label: 'English',
       lang: 'English',  
       link: '/English/',
       themeConfig: ThemeConfigEn 
     }, 
     "日本語": {
-      title:'YOUDU DESIGN',
+      title:'YOUDO DESIGN',
       label: '日本語',
       lang: '日本語',  
       link: '/日本語/',
