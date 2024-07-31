@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "markdown-it": "^14.1.0",
-    "themekit-js": "^1.47.3019"
+    "themekit-js": "^1.47.3110"
   },
   "devDependencies": {
     "vite-plugin-remote-assets": "^0.4.1"

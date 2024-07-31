@@ -1,6 +1,7 @@
 <!--$layout: doc-->
-<!--$lang: zh_CN-->
-<!--$en_US: /English/README.html-->
+<!--$lang: zh_CN--> 
+<!--$en_US: /English/--> 
+<!--$ja_JP: /日本語/-->
 <!--#Doc-->
 <!--$background-image: Resources/asset-2405301417.jpg -->
 <!--$color: #ffffff -->

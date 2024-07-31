@@ -12,14 +12,15 @@ const ThemeConfigCn={
   nav: [
     { text: '关于我', link: '/README' },
     { text: '景观设计', link: '/简体中文/景观设计/README' },
-    { text: '绿色建造', link: '/简体中文/绿色建造/README' },
+    { text: '海绵城市', link: '/简体中文/海绵城市/README' },
   ], 
   sidebar: { 
       '/README': [
       {
-        text: '',
+        text: '关于我',
         items: [ 
-          { text: '', link: '/' }
+            { text: '景观设计', link: '/简体中文/景观设计/README' }, 
+            { text: '海绵城市', link: '/简体中文/海绵城市/README' }
         ]
       } 
        ],
@@ -31,7 +32,7 @@ const ThemeConfigCn={
             { text: '象山', link: '/简体中文/景观设计/象山.md' }
           ]
         } 
-         ]
+     ]
   } 
 };
  
@@ -74,15 +75,12 @@ export default defineConfig({
       themeConfig:  ThemeConfigCn
     }
   },   
+  head: [['link', { rel: 'icon', href: '/Resources/youdo.svg' }]],
   themeConfig: {
-    logo:  '/seedunk.png', 
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],  
+    logo:  '/Resources/youdo.svg',  
     footer: {
       message: '<a href=\"'+siteBase+'English/"\>English</a>&nbsp;&nbsp;&nbsp;<a href=\"/"\>简体中文</a>&nbsp;&nbsp;&nbsp;<a href=\"'+siteBase+'日本語/"\>日本語</a>',
-      copyright: 'Copyright © 2019-2024 Seedunk'
+      copyright: 'Copyright © 2019-2024 Youdo Design'
     }
   }
 })

@@ -1,4 +1,8 @@
 <!--$layout: doc-->
+<!--$lang: zh_CN--> 
+<!--$en_US: /English/--> 
+<!--$ja_JP: /日本語/-->
+
 ![效果图](banner.jpg?path_base64=L%2Bmhueebri%2FmlYXmsrPmlrDohIkv&) 
  
 # 故河新脉
