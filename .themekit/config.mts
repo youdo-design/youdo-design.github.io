@@ -11,7 +11,7 @@ const ThemeConfigJp={
 const ThemeConfigCn={
   nav: [
     { text: '关于我', link: '/README' },
-    { text: '景观设计', link: '/简体中文/景观设计/README' },
+    { text: '园林景观', link: '/简体中文/园林景观/README' },
     { text: '海绵城市', link: '/简体中文/海绵城市/README' },
   ], 
   sidebar: { 
@@ -19,17 +19,17 @@ const ThemeConfigCn={
       {
         text: '关于我',
         items: [ 
-            { text: '景观设计', link: '/简体中文/景观设计/README' }, 
+            { text: '园林景观', link: '/简体中文/园林景观/README' }, 
             { text: '海绵城市', link: '/简体中文/海绵城市/README' }
         ]
       } 
        ],
-       '/简体中文/景观设计/': [
+       '/简体中文/园林景观/': [
         {
-          text: '景观设计',
+          text: '园林景观',
           items: [ 
-            { text: '故河新脉', link: '/简体中文/景观设计/故河新脉/README.md' }, 
-            { text: '象山', link: '/简体中文/景观设计/象山.md' }
+            { text: '故河新脉', link: '/简体中文/园林景观/故河新脉/README.md' }, 
+            { text: '象山', link: '/简体中文/园林景观/象山.md' }
           ]
         } 
      ]
