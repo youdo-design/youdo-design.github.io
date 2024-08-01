@@ -1,6 +1,6 @@
 import { defineConfig } from 'themekit-js'
 import RemoteAssets from 'vite-plugin-remote-assets'
-const siteBase="/" 
+const siteBase="/test123/" 
 // https://vitepress.dev/reference/site-config
 const ThemeConfigJp={
   nav: [
@@ -75,9 +75,9 @@ export default defineConfig({
       themeConfig:  ThemeConfigCn
     }
   },   
-  head: [['link', { rel: 'icon', href: '/Resources/youdo.svg' }]],
+  head: [['link', { rel: 'icon', href: siteBase+'Resources/youdo.svg' }]],
   themeConfig: {
-    logo:  '/Resources/youdo.svg',  
+    logo:   'Resources/youdo.svg',  
     footer: {
       message: '<a href=\"'+siteBase+'English/"\>English</a>&nbsp;&nbsp;&nbsp;<a href=\"/"\>简体中文</a>&nbsp;&nbsp;&nbsp;<a href=\"'+siteBase+'日本語/"\>日本語</a>',
       copyright: 'Copyright © 2019-2024 Youdo Design'
